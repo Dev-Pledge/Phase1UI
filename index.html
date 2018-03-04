@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>DevPledge</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div class="container-fluid colorSet1 nav-content">
+    <div class="container ">
+        <div class="row">
+            DevPledge
+        </div>
+    </div>
+</div>
+<div class="container-fluid colorSet2 page-content">
+    <div class="container ">
+        <div class="row">
+            <div class="col-2">
+                some stuff
+            </div>
+            <div class="col center-content">
+                <div class="container feed-submit-clear" >
+                    <button id="set-problem-button" class="btn colorSet1 btn-sm ">Set a Pledge Problem Jason?</button>
+                    <button id="working-on-now-button" class="btn colorSet5 btn-sm ">What are You Working on Now Jason?</button>
+                    <div id="set-problem-form" class="container feed-submit colorSet1 rounded" style="display:none;">
+                        <div class="row">
+                            <div class="col-3">
+                                <b>Set a Pledge Problem Jason?</b>
+                            </div>
+
+                            <div class="col-6">
+                                <input class="problem-inputs" type="text" placeholder="Title 40 characters"/>
+
+                                <input class="problem-inputs" type="text" placeholder="Desc 130 characters"/><br>
+
+                                <select>
+                                    <option>PHP</option>
+                                </select>
+                                <select>
+                                    <option>Laravel</option>
+                                </select>
+                                <a href="#">advanced</a>
+
+                            </div>
+                            <div class="col-3">
+                                <button type="button" class=" btn btn-light float-right btn-lg btn-group-vertical">
+                                    Post
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="working-on-now-form" class="container feed-submit colorSet5 rounded" style="display:none;">
+                        <div class="row">
+                            <div class="col-3">
+                                <b>What are you working on Jason?</b>
+                            </div>
+
+                            <div class="col-6">
+                                <input class="problem-inputs" type="text" placeholder="Title 40 characters"/>
+
+                                <input class="problem-inputs" type="text" placeholder="Desc 130 characters"/><br>
+
+                                <select>
+                                    <option>PHP</option>
+                                </select>
+                                <select>
+                                    <option>Laravel</option>
+                                </select>
+                                <a href="#">advanced</a>
+
+                            </div>
+                            <div class="col-3">
+                                <button type="button" class=" btn btn-light float-right btn-lg btn-group-vertical">
+                                    Post
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div id="feed1">
+                    <div class="container feed-problem-content rounded">
+                        <div class="row">
+                            <div class="col-8">
+                                <h4>Git Hub OAuth Library</h4>
+                                <h5>PHP</h5>
+                                <h6>Available as Composer Package</h6>
+                                <p>I require a simple PHP wrapper so I can log my users in using github.</p>
+                                <div class="row feed-buttons">
+                                    <button type="button" class="btn btn-secondary btn-sm">I'm Working on a Solution
+                                    </button>
+                                    <button type="button" class="btn colorSet1 btn-sm">Pledge</button>
+                                </div>
+                                <div class="row feed-buttons">
+                                    <div class="col-12 text-left">
+                                        <a href="#">See Comments</a> | <a href="#">Comment</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-4 border-left zero-padding">
+                                <div class="container colorSet1 pledge-item-header">
+                                    <h4>Pledges </h4>
+                                </div>
+                                <div class="pledge-item colorSet2">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            Johnny Negro
+                                        </div>
+                                        <div class="col-5 font-weight-bold">
+                                            $25.00
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="pledge-item colorSet2">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            Sam McClean
+                                        </div>
+                                        <div class="col-5 font-weight-bold">
+                                            $7.00
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pledge-item colorSet2 small">
+                                    see more pledges
+                                </div>
+                                <div class="container pledge-total zero-padding">
+                                    <div class="pledge-item colorSet4">
+                                        <div class="row font-weight-bold">
+                                            <div class="col-7">
+
+                                            </div>
+                                            <div class="col-5 ">
+                                                $59.00
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                some stuff
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid colorSet4 footer-content">
+    <div class="container ">
+        <div class="row">
+            footer
+        </div>
+    </div>
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script>
+    var feed = $('#feed1').html();
+    $(document).ready(function () {
+        $('#feed1').after(feed);
+        $('#feed1').after(feed);
+        $('#feed1').after(feed);
+    });
+    $('#set-problem-button').click(function () {
+        $('#set-problem-form').toggle();
+    });
+    $('#working-on-now-button').click(function () {
+        $('#working-on-now-form').toggle();
+    });
+</script>
+</body>
+</html>

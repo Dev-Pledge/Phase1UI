@@ -1,0 +1,127 @@
+a {
+    color: #675e9a;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #766cae;
+    text-shadow: 0.1px 0.1px 0.1px #1b1e21;
+    text-decoration: none;
+}
+
+.colorSet1 {
+    background: #43913c;
+    color: #ffffff;
+}
+
+.colorSet2 {
+    background: #ffffff;
+    color: #292929;
+}
+
+.colorSet3 {
+    background: #31642e;
+    color: #b9cac0;
+}
+
+.colorSet4 {
+    background: #222727;
+    color: #e4ffe2;
+}
+
+.colorSet5 {
+    background: #675e9a;
+    color: #e4ffe2;
+}
+
+.page-content {
+    min-height: 80vh;
+}
+
+.nav-content {
+    min-height: 80px;
+}
+
+.footer-content {
+    min-height: 200px;
+}
+
+.center-content {
+    min-height: 100vh;
+    border-left: 1px solid #0b2e13;
+    border-right: 1px solid #0b2e13;
+}
+
+.feed-submit {
+    margin-top: 10px;
+    min-height: 50px;
+    padding: 4px;
+    border: 1px solid #486556;
+}
+
+.feed-submit-clear {
+    margin-top: 10px;
+    min-height: 35px;
+    padding: 0;
+    border: none;
+}
+
+.feed-problem-content {
+    margin-top: 10px;
+    min-height: 150px;
+    border: 1px solid #486556;
+}
+
+.feed-problem-content > .row {
+    min-height: 150px;
+}
+
+.border-left {
+    border-left: 1px solid #486556;
+}
+
+.border-right {
+    border-right: 1px solid #486556;
+}
+
+.zero-padding {
+    padding: 0 !important;
+}
+
+.outline {
+    outline: 1px solid orange;
+}
+
+.pledge-item {
+    border-bottom: 1px solid #486556 !important;
+    padding: 4px;
+
+}
+
+.pledge-item-header {
+    padding: 2px 10px 2px 10px;
+}
+
+.feed-buttons {
+    margin-bottom: 10px;
+}
+
+.feed-buttons button {
+    margin: 4px;
+}
+
+.pledge-total {
+    position: absolute;
+    bottom: 0;
+}
+
+.problem-inputs {
+    background: #b8bce5;
+    color: black;
+    width: 100%;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #62557e;
+    margin-bottom: 3px;
+}
